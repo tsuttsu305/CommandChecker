@@ -6,6 +6,14 @@
   <name>CommandChecker</name>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>src</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -13,9 +21,9 @@
         <configuration>
           <source>1.7</source>
           <target>1.7</target>
-                            <file>src/plugin.yml</file>
+                  <file>src/plugin.yml</file>
                   <file>src/config.yml</file>
-        </configuration>
+              </configuration>
       </plugin>
     </plugins>
   </build>
