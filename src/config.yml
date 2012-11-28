@@ -1,0 +1,7 @@
+noAlert:
+- list
+- tell
+kickCmd:
+- stop
+- ban
+kickMsg: 'You have been kicked by server'

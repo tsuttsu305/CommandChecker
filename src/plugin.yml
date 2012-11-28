@@ -1,0 +1,4 @@
+name: CommandChecker
+author: tsuttsu305
+main: jp.tsuttsu305.CommandChecker.CommandChecker
+version: 1.0.0
