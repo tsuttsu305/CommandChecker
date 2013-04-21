@@ -1,4 +1,4 @@
-package jp.tsuttsu305.CommandChecker;
+package net.tsuttsu305.CommandChecker;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;

@@ -1,4 +1,4 @@
-package jp.tsuttsu305.CommandChecker;
+package net.tsuttsu305.CommandChecker;
 
 import java.util.List;
 import java.util.logging.Logger;
